@@ -11,7 +11,7 @@ const Routes: React.FC = () => {
   const { user, loading } = useAuth();
 
   if (loading) {
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <ActivityIndicator size="large" color="#999" />
     </View>;
   }
